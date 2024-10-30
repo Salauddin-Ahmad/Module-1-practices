@@ -1,7 +1,7 @@
 // reference data types --> Object
 
 // imlicit type infer
-const user: {
+const user =  {
 //   company: "xyz corporation"; //literal types
    readonly company: string; 
   firstName: string;
@@ -17,3 +17,4 @@ const user: {
 
 // user.company = "Programming Hero", //Cannot assign to 'company' because it is a read-only 
 
+console.log(user.firstName)
