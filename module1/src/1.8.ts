@@ -23,5 +23,5 @@ const myFriends = ['chandler', 'joey', 'ross', 'rachel', 'monica']
 
 const [, , bestFriend, ...rest] = myFriends;
 
-console.log(myFriends)
+console.log(rest)
 
