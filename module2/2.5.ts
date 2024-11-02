@@ -25,15 +25,17 @@ const resGenericObj = createArrayWithGeneric<Userr>({
   name: "mr. pashan",
 });
 
-const addCourseToStudent = <T>(student: T) => {
-  const course = "Next level web development";
 
-  return {
-    ...student,
-    course,
-  };
-};
-
-const student1 = addCourseToStudent({name: 'mrx', email: 'x@gmail', devType: 'nlwd'})
-
-const student2 = addCourseToStudent({name: 'mry', email: 'y@gmail', hasWatch: 'nlwd'})
+// const addCourseToStudent = <T>(student: T) => {
+//     const course = "Next level web development";
+  
+//     return {
+//       ...student,
+//       course,
+//     };
+//   };
+  
+//   const student1 = addCourseToStudent({name: 'mrx', email: 'x@gmail', devType: 'nlwd'})
+  
+//   const student2 = addCourseToStudent({name: 'mry', email: 'y@gmail', hasWatch: 'nlwd'})
+  
