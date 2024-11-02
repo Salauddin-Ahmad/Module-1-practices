@@ -45,3 +45,5 @@ const users: User = {
 const permanentaddress= users?.address?.permanentaddress ?? 'No permanent address';
 
 console.log({permanentaddress})
+
+const s = 'sdfas'
