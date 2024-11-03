@@ -26,3 +26,7 @@ const area1 : AreaString<{height: string; width: number}> = {
     width:  50,
 }
 
+
+
+
+
