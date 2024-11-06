@@ -150,3 +150,33 @@ Create a function that takes multiple numeric arguments (using the rest operator
   */
 
 
+
+// const sum = (...numbers: number[]) : number => {
+//     return numbers.reduce((acc, curr) => acc + curr, 0);
+// }
+
+// const b = sum(1,2,3,4,5)
+
+// console.log(b)
+
+
+// ----------------------------------------------------------------------------
+// ------------------------------- problem6 -----------------------------------
+// ----------------------------------------------------------------------------
+
+
+
+
+/***
+ * Task 7: Type Assertion and Narrowing
+Objective: Write a function that behaves differently based on the input type.
+
+Instructions:
+
+Create a function that accepts a parameter of type string | number.
+The function should:
+Return the length if the input is a string.
+Return the square if the input is a number.
+ * 
+ * 
+ */
